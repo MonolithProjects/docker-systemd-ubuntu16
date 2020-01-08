@@ -10,6 +10,7 @@ Ubuntu16 docker image (based on actual base image version). I am using it with M
 ## Tags
 
   - `latest`: Latest version of the image
+  - `20191212`: Xenial 16.04 from Dec.12.2019
 
 
 ## How-to
