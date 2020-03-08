@@ -1,4 +1,5 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20191212
+
 LABEL maintainer="Michal Muransky"
 ENV \
     container=docker \
@@ -19,7 +20,7 @@ RUN apt-get update \
     && rm -Rf /var/lib/apt/lists/* \
     && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
     && apt-get clean
-    
+
 RUN set -eux \
 	&& groupadd -g ${MY_GID} ${MY_GROUP} \
 	&& useradd -m -d /home/ansible -s /bin/bash -G ${MY_GROUP} -g ${MY_GID} -u ${MY_UID} ${MY_USER} \
