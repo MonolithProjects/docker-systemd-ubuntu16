@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20200212
 LABEL maintainer="Michal Muransky"
 ENV \
     container=docker \
