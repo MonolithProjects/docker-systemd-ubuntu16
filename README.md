@@ -1,7 +1,7 @@
 # Ubuntu16 Ansible Test Image
 
 <a href="https://github.com/MonolithProjects/docker-systemd-ubuntu16/actions"><img src="https://github.com/MonolithProjects/docker-systemd-ubuntu16/workflows/Dockerfile%20test/badge.svg?branch=master"/></a>
-<a href="https://hub.docker.com/repository/docker/monolithprojects/systemd-ubuntu16"><img src="https://img.shields.io/microbadger/image-size/monolithprojects/systemd-ubuntu16/master"/></a>
+<a href="https://hub.docker.com/repository/docker/monolithprojects/systemd-ubuntu16"><img src="https://img.shields.io/microbadger/layers/monolithprojects/systemd-ubuntu16"/></a>
 <a href="https://hub.docker.com/repository/docker/monolithprojects/systemd-ubuntu16"><img src="https://img.shields.io/docker/pulls/monolithprojects/systemd-ubuntu16"/></a>
 <a href="https://hub.docker.com/repository/docker/monolithprojects/systemd-ubuntu16"><img src="https://img.shields.io/docker/cloud/automated/monolithprojects/systemd-ubuntu16?maxAge=2592000"/></a>
 
